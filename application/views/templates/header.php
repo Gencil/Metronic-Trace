@@ -4,7 +4,7 @@
 	<div class="header-inner">
 		<!-- BEGIN LOGO -->
 		<a class="navbar-brand" href="<?php echo base_url(); ?>">
-			<img src="<?php echo base_url(); ?>public/assets/logo/topheader.jpg" class="img-responsive" alt="Garuda Indonesia" />
+			<img src="<?php echo base_url(); ?>public/assets/logo/topheader.jpg" alt="Garuda Indonesia" />
 		</a>
 		<!-- END LOGO -->
 		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
