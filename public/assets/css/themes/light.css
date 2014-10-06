@@ -23,6 +23,12 @@ Page header
 .header .btn-navbar {
   background-color: #434343 !important;
 }
+.header.navbar .navbar-toggle img {
+  background-color: #434343 !important;
+}
+.header.navbar .navbar-toggle:hover img {
+  background-color: #4f4f4f !important;
+}
 .header .navbar-nav .dropdown-toggle:hover,
 .header .navbar-nav .dropdown.open .dropdown-toggle {
   background-color: #4f4f4f !important;

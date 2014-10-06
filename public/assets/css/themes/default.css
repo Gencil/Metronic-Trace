@@ -23,9 +23,18 @@ Page header
 .header .btn-navbar {
   background-color: #212121 !important;
 }
+.header.navbar .navbar-toggle img {
+  background-color: #212121 !important;
+}
+.header.navbar .navbar-toggle:hover img {
+  background-color: #383838 !important;
+}
 .header .navbar-nav .dropdown-toggle:hover,
 .header .navbar-nav .dropdown.open .dropdown-toggle {
   background-color: #383838 !important;
+}
+.header.navbar .navbar-nav > li.dropdown.user .dropdown-toggle .username {
+  color: #8a8a8a !important;
 }
 .header .navbar-nav li.dropdown .dropdown-toggle i {
   color: #8a8a8a !important;
