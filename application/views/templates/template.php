@@ -7,7 +7,7 @@
 <!-- BEGIN HEAD -->
 <head>
 <meta charset="utf-8"/>
-<title>Promocode Management System</title>
+<title><?= $this->config->item('app_title').' | '. @$pagetitle; ?></title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="" name="description"/>
@@ -46,7 +46,13 @@
 	
 	<?php echo $_sidebar; ?>
 
+<div class="page-content-wrapper">
+	<div class="page-content">
+	<?= $_page_header ?>
+
 	<?php echo $_content ?>
+	</div>
+</div>
 
 <!-- END CONTAINER -->
 

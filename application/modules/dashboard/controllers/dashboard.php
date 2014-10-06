@@ -10,6 +10,7 @@ class Dashboard extends MX_Controller {
 	{
         $data['pagetitle']	= 'Dashboard';
         $data['time'] 		= date('Y/m/d');
+        $data['breadcrumb'] = array('Dashboard' => 'dashboard');
         $js['js']			= array('vmap','flot','pulsate','daterange','gritter','fullcalendar','piechart','sparkline');
         $js['custom']		= array('jvmap');
 		$this->template->display('dashboard', $data, $js);
