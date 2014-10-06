@@ -32,6 +32,9 @@ Page header
 .header .navbar-nav .dropdown.open .dropdown-toggle {
   background-color: #616161 !important;
 }
+.header.navbar .navbar-nav > li.dropdown.user .dropdown-toggle .username {
+  color: #b3b3b3 !important;
+}
 .header .navbar-nav li.dropdown .dropdown-toggle i {
   color: #b3b3b3 !important;
 }
