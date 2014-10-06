@@ -2235,17 +2235,17 @@
 		</div>
 	</div>
 	<!-- END CONTENT -->
-
 <script type="text/javascript">
-	$('document').ready(function(){
+	jQuery(function(){
+   	   App.init(); // initlayout and core plugins
 	   JQVMap.init();
 	   JQVMap.initJQVMAP(); // init index page's custom scripts
-	   // Index.initCalendar(); // init index page's custom scripts
-	   // Index.initCharts(); // init index page's custom scripts
-	   // Index.initChat();
-	   // Index.initMiniCharts();
-	   // Index.initDashboardDaterange();
-	   // Index.initIntro();
-	   // Tasks.initDashboardWidget();
+	   Calendar.initCalendar(); // init index page's custom scripts
+	   Charts.initCharts(); // init index page's custom scripts
+	   Charts.initMiniCharts();
+	   Chat.initChat();
+	   DateRange.initDashboardDaterange();
+	   Intro.initIntro();
+	   // Widget.initDashboardWidget();
 	});
 </script>

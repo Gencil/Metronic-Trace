@@ -12,7 +12,7 @@ class Dashboard extends MX_Controller {
         $data['time'] 		= date('Y/m/d');
         $data['breadcrumb'] = array('Dashboard' => 'dashboard');
         $js['js']			= array('vmap','flot','pulsate','daterange','gritter','fullcalendar','piechart','sparkline');
-        $js['custom']		= array('jvmap');
+        $js['custom']		= array('jvmap','calendar','charts','chat','daterange','intro','tasks');
 		$this->template->display('dashboard', $data, $js);
 	}
 }

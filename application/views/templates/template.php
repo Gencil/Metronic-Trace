@@ -81,15 +81,7 @@
 
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
 <script src="<?php echo base_url(); ?>public/assets/scripts/core/app.js" type="text/javascript"></script>
-<!-- <script src="<?php echo base_url(); ?>public/assets/scripts/custom/index.js" type="text/javascript"></script> -->
-<!-- <script src="<?php echo base_url(); ?>public/assets/scripts/custom/tasks.js" type="text/javascript"></script> -->
 <!-- END PAGE LEVEL SCRIPTS -->
-
-<script>
-$('document').ready(function(){
-   App.init(); // initlayout and core plugins
-});
-</script>
 
 <!-- END JAVASCRIPTS -->
 </body>
